@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to your global CSS */
+[draggable] {
+    -webkit-user-drag: element;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .touch-none {
+    touch-action: none;
+  }
+  
+  .select-none {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .opacity-50 {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+/* Add any custom styles here */

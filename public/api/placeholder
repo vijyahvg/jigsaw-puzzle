@@ -1,0 +1,20 @@
+const presetImages = [
+  {
+    id: 'nature',
+    title: 'Nature',
+    src: 'https://images.unsplash.com/photo-1482192505345-5655af888cc4',
+    alt: 'Snowy winter scene'
+  },
+  {
+    id: 'peacock',
+    title: 'Peacock',
+    src: 'https://images.unsplash.com/photo-1511800453077-8c0afa90b9fb',
+    alt: 'Colorful peacock'
+  },
+  {
+    id: 'animals',
+    title: 'Animals',
+    src: 'https://images.unsplash.com/photo-1516616370751-86d6bd8b0651',
+    alt: 'Mountain lake'
+  }
+];
